@@ -1,7 +1,8 @@
 <?php
+	widget_css();
 ?>
 
-		<div class='panel-titles'>Panel Title</div>
+		<div class='panel-titles'><?=$widget_config['title']?></div>
 	<?
 		$latest_comments = g::posts(array( 'wr_is_comment' => '1', 'limit' => '4' ));
 			foreach ( $latest_comments as $comments ) {
@@ -18,3 +19,6 @@
 		<? } ?>
 		
 		<div style='clear: left'></div>
+<style>
+<?=$widget_config['css']?>
+</style>
