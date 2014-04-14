@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+	<category>
+		<main>post</main>
+		<sub>latest</sub>
+	</category>
+	<name>
+		<en>Comemnt Line</en>
+		<ko>최근 코멘트</ko>
+	</name>
+	<version>0.2</version>
+	<author>JaeHo Song</author>
+	<email>thruthesky@gmail.com</email>
+	<homepage>http://jaehosong.com</homepage>
+	<demo>http://philgo.net</demo>
+	<short>
+		<en>Displays latest comment.</en>
+		<ko>최근코멘트를 표시합니다.</ko>
+	</short>
+	<detail>
+		<en>it displays newly posted comment.</en>
+		<ko>최근 코멘트를 표시합니다.</ko>
+	</detail>
+</config>
