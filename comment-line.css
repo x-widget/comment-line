@@ -1,0 +1,38 @@
+.comment-line .latest-comments {
+	width: 25%;
+	float: left;
+}
+
+.comment-line .latest-comments .inner {
+	background: #4c8ce0;
+	margin: 1%;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.comment-line .latest-comments .inner a {
+	color: #ffffff;
+}
+
+.comment-line .latest-comments .inner span {
+	display: block;
+}
+
+.comment-line .latest-comments .inner .post-comment {
+	height: 100px;
+	margin-bottom: 10px;
+	line-height: 130%;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.comment-line .latest-comments .inner .comment-author {
+	text-align: center;
+}
+
+
+.comment-line .title {
+	font-size: 20px;
+	padding: 15px 10px;
+	font-weight: bold;
+}
