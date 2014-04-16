@@ -36,3 +36,23 @@
 	padding: 15px 10px;
 	font-weight: bold;
 }
+
+@media (max-width: 970px) {
+	.comment-line .latest-comments {
+		width: 33.33%;
+	}
+	
+	.comment-line .comment_4 {
+		display: none;
+	}
+}
+
+@media (max-width: 640px) {
+	.comment-line .latest-comments {
+		width: 50%;
+	}
+	
+	.comment-line .comment_3 {
+		display: none;
+	}
+}
