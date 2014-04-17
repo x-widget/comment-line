@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <config>
-	<id>comment-line</id>
+	<id>widget comment-line</id>
 	<type>widget</type>
 	<category>
 		<main>post</main>
 		<sub>latest</sub>
 	</category>
 	<name>
-		<en>Comemnt Line</en>
+		<en>Comment Line</en>
 		<ko>최근 코멘트</ko>
 	</name>
-	<version>0.2</version>
-	<author>JaeHo Song</author>
-	<email>thruthesky@gmail.com</email>
-	<homepage>http://jaehosong.com</homepage>
+	<version>1.0</version>
+	<author>X-Team</author>
+	<email>philgohelp@gmail.com</email>
+	<homepage>http://www.philgo.net</homepage>
 	<demo>http://philgo.net</demo>
 	<short>
 		<en>Displays latest comment.</en>
