@@ -27,3 +27,11 @@
 <style>
 <?=$widget_config['css']?>
 </style>
+
+<? if ( etc::old_ie() ) { ?>
+	<style>
+		.comment-line .latest-comments {
+			width: 24.99%;
+		}
+	</style>
+<? } ?>
